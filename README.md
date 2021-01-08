@@ -8,6 +8,11 @@ See the sources:
  - [Objectors](./objectors.json)
  - [Donations](./donations.json)
 
+Now the vote has happened, I grabbed the data from [The Guardian](https://www.theguardian.com/us-news/2021/jan/07/list-republicans-voted-to-reject-election-results).
+
+ - [Voted Against](./votedAgainst.json)
+ - [Donations](./donationsVotes.json)
+
 Run yourself:
 
 ```sh
@@ -18,7 +23,3 @@ yarn
 # This will update ./donations.json
 node generate.mjs
 ```
-
-
-
-
